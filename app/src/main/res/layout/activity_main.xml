@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACACAC"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".main.MainActivity">
+
+    <EditText
+        android:id="@+id/download_link_text_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="@android:string/paste"
+        android:hint="link"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/download_file_name_text_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="@android:string/paste"
+        android:hint="file name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/download_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="download" />
+
+    <TextView
+        android:id="@+id/status_text_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
